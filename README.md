@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📂 Table of **Contents**
+- [📂 Table of **Contents**](#-table-of-contents)
+- [📋 Project Description](#-project-description)
+- [✨ Features](#-features)
+- [⛏️ Built Using](#️-built-using)
+  - [Frontend](#frontend)
+  - [Design](#design)
+  - [Other](#other)
+- [🔍 Explore The Project](#-explore-the-project)
+- [📥 Installation](#-installation)
+- [📝 Usage](#-usage)
+- [How I Engineered it:](#how-i-engineered-it)
+  - [Requirements Gathering:](#requirements-gathering)
+  - [Assets Setting and Designing](#assets-setting-and-designing)
+  - [Planing](#planing)
+  - [Developing](#developing)
+  - [Docmentation](#docmentation)
+- [✍ Contributors](#-contributors)
 
-## Getting Started
+## 📋 Project Description
+Mohammed Dhabaab Frontend Development Tech Task for STC Bank
 
-First, run the development server:
+## ✨ Features
+- Responsive
+- Scalable
+- Reusable
+- Maintainable
+- Functional
+- Robust
+- Modern
+- etc
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⛏️ Built Using
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="./app/assets/readme/technologies/frontend/next.svg" alt="nextjs-colored" title="Next.js" width="36" height="36"/></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="./app/assets/readme/technologies/frontend/react.svg" alt="react" width="36" height="36" alt="React.js" title="React.js" /></a>
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="./app/assets/readme/technologies/frontend/typescript.svg" alt="Typescript" title="Typescript" width="36" height="36"/></a>
+<a href="https://zustand-demo.pmnd.rs/" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/frontend//zustand.svg" width="36" height="36" alt="Zustand" title="Zustand" /></a>
+<a href="https://www.javascript.com/" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/frontend/javascript.svg" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/frontend/tailwindcss.svg" width="36" height="36" alt="TailwindCSS" title="TailwindCSS" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/frontend/html.svg" width="36" height="36" alt="HTML5" title="HTML5" /></a>
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/frontend/css.svg" width="36" height="36" alt="CSS3" title="CSS3" /></a>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Design
 
-## Learn More
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/design/figma.svg" width="36" height="36" alt="Figma" title="Figma" /></a>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Other
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="./app/assets/readme/technologies/other/git.svg" width="36" height="36" alt="Git" title="Git" /></a>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔍 Explore The Project
+- []()
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📥 Installation
+
+1. Clone the project or download the zip version of the project then unzip it
+2. You need to install [node.js=22.13.0](https://nodejs.org/en/blog/release/v22.13.0), to ensure compatibility as the project built with it
+3. Add node.js to environment variables (PATH)
+4. Use the package manager npm to install all the dependencies specified within the package.json file using the command line within the root directory of the project:
+   ```shell
+   npm install
+   ```
+
+## 📝 Usage
+
+To explore "mohammed-dhabaab-stc-bank-tech-task", follow the following steps:
+
+1. Follow [📥 Installation](#-installation) process
+2. Run the development environment or build the production environment
+   - To run the development environment, use the following command using the command line within the root directory of the project:
+     ```shell
+     npm run dev
+     ```
+   - To build the production environment, use the following command using the command line within the root directory of the project:
+     ```shell
+     npm run build
+     ```
+
+
+## How I Engineered it:
+
+### Requirements Gathering:
+- Read the email clearly to understand the requirements and the objectives
+
+### Assets Setting and Designing
+- Searched online on free samiler icons for the image provided in the email and modify some of them to match using Figma.
+- Searched online of the same font the can be used, but did not find a free and suitable one for STC fonts
+
+### Planing
+- Plan on making sure the project can be scale, reuse, and robust
+- Identified reusable components to develop
+
+
+### Developing
+- Setting the color platt for the project, using Figma to identity the colors in the design, than set it on tailwind CSS to use them across the  project
+- Started by the main page structure than moved to the reusable components to save time and help of many software development concepts, like SOLID, DRY, KISS, etc.
+
+### Docmentation
+- Documented the project using README.md, TypeScript, and GIT
+
+## ✍ Contributors
+- Mohammed Dhabaab
+  - [Website](https://mohammeddhabaab.com/)
+  - [LinkedIn](https://www.linkedin.com/in/mohammed-dhabaab/)
+  - [Github](https://github.com/mohammed-dhabaab)
