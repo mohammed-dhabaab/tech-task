@@ -83,25 +83,25 @@ To explore "mohammed-dhabaab-stc-bank-tech-task", follow the following steps:
      ```
 
 
-## How I Engineered it:
+## 🤹 How I Engineered it:
 
 ### Requirements Gathering:
 - Read the email clearly to understand the requirements and the objectives
 
 ### Assets Setting and Designing
-- Searched online on free samiler icons for the image provided in the email and modify some of them to match using Figma.
-- Searched online of the same font the can be used, but did not find a free and suitable one for STC fonts
+- Searched online for free sampler icons for the image provided in the email and modified some of them to match using Figma.
+- Searched online for the same font that can be used, but did not find a free and suitable one for STC fonts
 
 ### Planing
-- Plan on making sure the project can be scale, reuse, and robust
+- Plan on making sure the project can be scaled, reused, and robust
 - Identified reusable components to develop
 
 
 ### Developing
-- Setting the color platt for the project, using Figma to identity the colors in the design, than set it on tailwind CSS to use them across the  project
-- Started by the main page structure than moved to the reusable components to save time and help of many software development concepts, like SOLID, DRY, KISS, etc.
+- Setting the color palette for the project, using Figma to identify the colors in the design, then setting it on Tailwind CSS to use them across the  project
+- Started by the main page structure, then moved to the reusable components to save time, and the help of many software development concepts, like SOLID, DRY, KISS, etc.
 
-### Docmentation
+### Documentation
 - Documented the project using README.md, TypeScript, and GIT
 
 ## ✍ Contributors
