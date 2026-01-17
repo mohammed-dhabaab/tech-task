@@ -54,7 +54,7 @@ Mohammed Dhabaab Frontend Development Tech Task for STC Bank
 
 
 ## 🔍 Explore The Project
-- [Live (until 1/17/2026)](https://tech-task-pied.vercel.app/)
+- [Live (until 1/31/2026)](https://tech-task-pied.vercel.app/)
 
 
 ## 📥 Installation
